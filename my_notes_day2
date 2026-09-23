@@ -1,1 +1,59 @@
+IP Phones
+1. PoE (802.3af, at, bt)
+2. MA C Address
+3. IP Address
+4. UDP 69, TCP 2000 (SKINNY), TCP 5060 (SIP)
+5. RTP
+6. codec G711
+7 Application
+
+
+SECURITY
+-CIA
+Confidentiality 
+NIST 
+-Governance Risk, Compliance
+
+integrity
+1 code signing
+2 cryptographic checksum
+3 merkle trees
+
+availability
+1 load balancing
+2 failover
+3 backup (RAID)
+4 Rate Limiting / DDos Protection
+5 CDN (Content Delivery Network)
+
+bandwidth
+transmission speed
+
+
+DNS
+Root =TLD Servers
+TLD = SLD servers
+SLD = records
+NS - name server
+
+
+-apex record/root record   netplus41.com
+-web                       www
+-nameserver                ns1 ns2
+
+
+
+normal   IPV4     IPV6
+0-9      0-255    0-9, A-F
+
+1089
+
+/20 255.255.240.0
+/5 248.0.0.0
+/17 255.255.128.0
+
+
+/9 = 2 128i 255.128.0.0
+/14 2 4i 255.252.0.0
+/28 4 16i 255.255.255.240
 
